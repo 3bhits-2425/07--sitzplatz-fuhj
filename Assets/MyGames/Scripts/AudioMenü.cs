@@ -1,122 +1,82 @@
+using JetBrains.Annotations;
 using System.Collections;
-
 using System.Collections.Generic;
-
+using System.Runtime.CompilerServices;
 using TMPro;
-
 using UnityEngine;
 
 public class AudioMenu : MonoBehaviour
-
 {
 
-    [SerializeField] private AudioSource myAudioSource;
+    //Variablen umden Button und den text zu finden
 
-    private TMP_Text playPauseButtonText;
+    private GameObject playPauseButton; //Button
+    private TMP_Text playPauseButtonText; //Text auf dem Button
 
-    private GameObject playPauseButton;
 
+    private AudioSource myAudioSource;
+    // Start is called before the first frame update
     void Awake()
-
     {
-
         myAudioSource = GetComponent<AudioSource>();
 
-        //1. Finde das Textfeld des PlayPause-Buttons
+        //finde das Textfeld des Play/Pause Buttons
+        playPauseButton = GameObject.Find("PlayPause");
 
-        playPauseButton = GameObject.Find("Pause/Play");
-
-        //2. Finde das Textfeld als Kind des Buttons
-
+        //finde den Text des Play/Pause Buttons
         playPauseButtonText = playPauseButton.GetComponentInChildren<TMP_Text>();
 
+
     }
 
+    // Update is called once per frame
     public void PlayAudio()
-
     {
-
-        // Spiele die Audio-Source 
-
-        myAudioSource.Play();
-
+        Debug.Log("Audio started");
+        // start playing the audio
+        // myAudioSource.Play();
+        FindAnyObjectByType<AudioManager>().Play("sound 1");
     }
-
     public void PauseAudio()
-
     {
-
-        // Pausiere die Audio-Source
-
-        myAudioSource.Pause();
+        Debug.Log("Audio paused");
+        // pause the audio
+        //myAudioSource.Pause();
+        FindAnyObjectByType<AudioManager>().Pause("sound 1");
 
     }
-
     public void StopAudio()
-
     {
-
-        // Stoppe die Audio-Source
-
+        Debug.Log("Audio stopped");
+        // stop the audio
         myAudioSource.Stop();
-
     }
-
-    public void PlayPause()
-
+    public void playPauseAudio()
     {
 
         if (myAudioSource.isPlaying)
-
         {
-
             myAudioSource.Pause();
-
-   
-
         }
-
         else
-
         {
-
             myAudioSource.Play();
-
-          
-
         }
-
     }
-
     public void Update()
-
     {
-
-        //Ändere den Button-Text
-
-        //abhängig vom Zusatnd der AusioSource
-
         if (myAudioSource.isPlaying)
-
         {
-
-            playPauseButtonText.text = "Pause";
-            Debug.Log("Audio is playing");
-            //myAudioSource.Play();
-
-        }
-
-        else
-
-        {
-
             playPauseButtonText.text = "Play";
-            Debug.Log("Audio is paused");
             //myAudioSource.Pause();
+            Debug.Log("Audio paused");
+        }
+        else
+        {
+            playPauseButtonText.text = "Pause";
+            // myAudioSource.Play();
+            Debug.Log("Audio play");
 
         }
-
     }
-
 }
-
