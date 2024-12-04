@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: a98365dc05db7204596d409bfcc08edb
+  productGUID: f4d619b75ddb3b343bfd5e47da0d1957
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 07-Sitzplatz-jfuhrmeister
+  productName: 16-Sitzplan-SPAV
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -625,14 +625,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 07-Sitzplatz-jfuhrmeister
+  metroPackageName: 16-Sitzplan-SPAV
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 07-Sitzplatz-jfuhrmeister
+  metroApplicationDescription: 16-Sitzplan-SPAV
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -700,11 +700,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 9199b814-5183-400a-8179-d5a49c8634c3
+  cloudProjectId: c1ea07ff-7a95-4ef7-b063-c53f4814a139
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 07-Sitzplatz-jfuhrmeister
-  organizationId: jlf_0000
+  projectName: 16-Sitzplan-SPAV
+  organizationId: viktorspajic
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
