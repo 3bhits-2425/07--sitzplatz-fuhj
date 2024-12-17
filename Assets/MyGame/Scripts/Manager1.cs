@@ -9,9 +9,12 @@ public class Manager1 : MonoBehaviour
     [SerializeField] private StudentData[] students;
     [SerializeField] private GameObject tablePrefab; //Prefab für Tisch
     [SerializeField] private GameObject chairPrefab; //Prefab für Stuhl
+    [SerializeField] private GameObject Menschprefab; //Prefab für Mensch
+    [SerializeField] private List<GameObject> chairList; 
     // Start is called before the first frame update
     private void Start()
     {
+      
         for (int row = 0; row < tableLayout.rows; row++)
         {
             for (int col = 0; col < tableLayout.columns; col++)

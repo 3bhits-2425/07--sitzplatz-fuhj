@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|c:\\users\\jonah\\onedrive - htbluva salzburg\\dokumente\\desktop\\htl-f\u00E4cher\\3_schuljahr\\sew-ve\\07--sitzplatz-fuhj\\assets\\mygame\\scripts\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|solutionrelative:assets\\mygame\\scripts\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\assets\\mygame\\scripts\\manager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|solutionrelative:assets\\mygame\\scripts\\manager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|c:\\users\\jonah\\onedrive - htbluva salzburg\\dokumente\\desktop\\htl-f\u00E4cher\\3_schuljahr\\sew-ve\\07--sitzplatz-fuhj\\assets\\mygame\\scripts\\manager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|solutionrelative:assets\\mygame\\scripts\\manager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|c:\\users\\jonah\\onedrive - htbluva salzburg\\dokumente\\desktop\\htl-f\u00E4cher\\3_schuljahr\\sew-ve\\07--sitzplatz-fuhj\\assets\\mygame\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|solutionrelative:assets\\mygame\\scripts\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|c:\\users\\jonah\\onedrive - htbluva salzburg\\dokumente\\desktop\\htl-f\u00E4cher\\3_schuljahr\\sew-ve\\07--sitzplatz-fuhj\\assets\\mygame\\scripts\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B29399EF-F239-9340-4A7A-C85BC996429E}|Assembly-CSharp.csproj|solutionrelative:assets\\mygame\\scripts\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\Assets\\MyGame\\Scripts\\Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyGame\\Scripts\\Manager.cs",
+              "ToolTip": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\Assets\\MyGame\\Scripts\\Manager.cs",
+              "RelativeToolTip": "Assets\\MyGame\\Scripts\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:11:24.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StudentData.cs",
               "DocumentMoniker": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\Assets\\MyGame\\Scripts\\StudentData.cs",
               "RelativeDocumentMoniker": "Assets\\MyGame\\Scripts\\StudentData.cs",
@@ -35,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Manager1.cs",
               "DocumentMoniker": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\Assets\\MyGame\\Scripts\\Manager1.cs",
               "RelativeDocumentMoniker": "Assets\\MyGame\\Scripts\\Manager1.cs",
               "ToolTip": "C:\\Users\\jonah\\OneDrive - HTBLuVA Salzburg\\Dokumente\\Desktop\\HTL-F\u00E4cher\\3_Schuljahr\\SEW-VE\\07--sitzplatz-fuhj\\Assets\\MyGame\\Scripts\\Manager1.cs",
               "RelativeToolTip": "Assets\\MyGame\\Scripts\\Manager1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T19:30:10.463Z",
               "EditorCaption": ""
